@@ -1,0 +1,252 @@
+.section{
+width: 100%;
+margin-top: 100px;
+height: auto;
+display: flex;
+padding: 50px;
+
+}
+.image{
+
+height: auto;
+width: 100%;
+}
+.text{
+height: auto;
+padding:100px;
+width: 50%;
+font-size: 10px;
+}
+.image img{
+height: 100%;
+width: 100%;
+}
+.text h1{
+
+    font-size: 40px;
+}
+.text img{
+
+width: 30px;
+height: 30px;
+
+}
+.apple{
+    display: flex;
+}
+.images{
+margin-left:200px;
+    display: flex;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+height: 50px;
+width: 800px;
+gap: 40px;
+}
+.images img{
+height: 100%;
+width: 200px;
+}
+.work{
+width: 100%;
+height: 500px;
+margin-top: 100px;
+}
+.how{
+text-align: center;
+gap: 40px;
+justify-content: center;
+}
+.icon{
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 50px;
+text-align: center;
+padding-top: 20px;
+}
+.parag{
+font-size: 10px;
+
+
+}
+.tnc{
+    padding-top: 30px;
+    height: 60px;
+
+}
+.para{
+font-size: 20px;
+
+
+}
+.png{
+width: 50%;
+height: 50%;
+padding: 100px;
+padding-right: 50px;
+margin-top: 200px;
+}
+.pna{
+width: 50%;
+height: 50%;
+padding: 30px;
+
+}
+.png img{
+width: 100%;
+height: 100%;
+
+}
+.experience{
+    display: flex;
+}
+.n{
+    display: flex;
+    margin-top: 30px;
+}
+.cards{
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-top: 50px;
+height: 500px;
+}
+.sunny{
+padding: 100px 260px;
+gap: 30px;
+    display: flex;
+}
+.a{
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+height: 350px;
+width: 280px;
+ border-radius: 20px;
+}
+.img1{
+margin-top: 10px;
+
+
+}
+.img2{
+    margin-top: 20px;
+}
+.m{
+    margin-top: 100px;
+    text-align: center;
+}
+.o{
+text-align: center;
+margin-top: 100px;
+letter-spacing: 5px;
+gap: 100px;
+}
+.i{
+display: flex;
+justify-content: center;
+gap: 100px;
+
+}
+.b{
+margin-top: 20px;
+padding: 40px;
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+height: 70px;
+}
+    
+.d{
+box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+border: 20px;
+display: flex;
+height: 450px;
+border-radius: 30px;
+
+
+
+}
+.w img{
+    display: flex;
+    width: 300px;
+    border-radius: 20px;
+    ;
+}
+.p{
+    letter-spacing: 0px
+    ;
+}
+.y img{
+height: 100px;
+width: 100px;
+border-radius: 20px;
+    border: 1px solid black
+
+}
+.p img{
+width: 200px;
+height: 20px;
+align-items: flex-start;
+
+}
+.download{
+align-items: center;
+text-align: center;
+margin-top:100px ;
+border: 1px solid black;
+height: 500px;
+width: 100%;
+}
+.sabir{
+height:100%;
+width: 48%;
+border: 1px solid black;
+
+
+}
+
+.nisar{
+width: 48%;
+height: 100%;
+
+border: 1px solid black;
+
+}
+.text button{
+width: 100px;
+border-radius: 10px;
+height: 40px;
+background-color: blue;
+color: white;
+
+}
+.text img{
+    width: 100px;
+    height: 40px;
+}
+.imag{
+padding-left: 200px;
+    height: auto;
+    width: 100%;
+top: 60px;
+    margin-top: 200px;
+}
+
+.v{
+    height: 200px;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: blue;
+color: white;
+}
+.rent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.x{
+    display: flex;
+}
+.dr{
+background-color: blue;
+text-align: center;
+}
+
