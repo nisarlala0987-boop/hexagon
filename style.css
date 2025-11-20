@@ -360,7 +360,8 @@ height: 100%;
 }.count1{
     display: flex;
     gap: 10px;
-   margin-left: 20px; 
+   margin-left: 20px;
+    
     
 }
 .count{
