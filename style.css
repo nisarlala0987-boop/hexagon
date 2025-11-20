@@ -1,9 +1,12 @@
 .section{
 width: 100%;
-margin-top: 100px;
 height: auto;
 display: flex;
-padding: 50px;
+
+}.section1{
+width: 100%;
+height: auto;
+display: flex;
 
 }
 nav
@@ -100,19 +103,19 @@ gap: -10px;
 .work{
 width: 100%;
 height: 500px;
-margin-top: 100px;
+margin-top: 20px;
 
 }
 .how{
 text-align: center;
-gap: 40px;
+gap: 50px;
 justify-content: center;
 }
 .icon{
 justify-content: center;
 align-items: center;
 display: flex;
-gap: 50px;
+gap: 70px;
 text-align: center;
 padding-top: 20px;
 }
@@ -136,7 +139,6 @@ width: 50%;
 height: 50%;
 padding: 100px;
 padding-right: 50px;
-margin-top: 200px;
 }
 .pna{
 width: 50%;
@@ -151,6 +153,8 @@ height: 100%;
 }
 .experience{
     display: flex;
+    padding-top: 100px;
+    flex-wrap: wrap;
 }
 .n{
     display: flex;
@@ -170,9 +174,10 @@ gap: 30px;
 }
 .a{
 box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
-height: 350px;
+height: 400px;
 width: 280px;
  border-radius: 20px;
+ 
 }
 .img1{
 margin-top: 10px;
@@ -183,8 +188,8 @@ margin-top: 10px;
     margin-top: 20px;
 }
 .m{
-    margin-top: 100px;
     text-align: center;
+    margin-top: 50px;
 }
 .btn1{
     border-radius: 10px;
@@ -203,10 +208,11 @@ margin-top: 10px;
     padding: 5px 30px 15px 30px;
     background-color: transparent;
     cursor: pointer;
+    margin-top: 50px;
 }
 .o{
 text-align: center;
-margin-top: 100px;
+margin-top: 50px;
 letter-spacing: 5px;
 gap: 100px;
 }
@@ -343,9 +349,69 @@ height: 100%;
     gap: 20px;
     margin-top: 10px;
 }
+.ee img{
+    width: 120px;
+    height: 40px;
+}
+.count2{
+    display: flex;
+    gap: 60px;
+   margin-left: 20px; 
+}.count1{
+    display: flex;
+    gap: 10px;
+   margin-left: 20px; 
+    
+}
+.count{
+    display: flex;
+    gap: 10px;
+}
+.frozen{
+    display: flex;
+    gap: 10px;
+   margin-left: 20px; 
+    
+}
+.gg{
+    display: flex;
+    gap: 5px;
+   margin-left: 20px; 
+    
+}
+.line {
+    width: 70%;        
+    height: 2px;
+    background: #b3b1b1; 
+    margin: 10px auto; 
+    border-radius: 10px;
+}
+.price{
+    display: flex;
+    gap: 100px;
+    margin-left: 20px;
 
+}
+.ret{
+    display: flex;
+    gap: 5px;
+}
+.btn00{
+    border-radius: 10px;
+    font-size: 15px;
+    border-color: rgba(0,0,0,0.2) ;
+    padding: 5px 70px 6px 30px;
+    cursor: pointer;
+    background-color: #1572D3;
+    color: white;
+}
+.text1{
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 50%;
+}
 
-@media (max-width:560px) {
+@media (max-width:768px) {
 .tnc1{
 display: flex;
 height: 100px;
@@ -366,11 +432,14 @@ margin-right: 20px;
 
 .btn2{
     padding: 5px 20px 5px 20px;
+
+
 }
 .btn1{
     padding: 5px 20px 5px 20px;
 
 }
+
 
 
 
@@ -388,7 +457,7 @@ margin-right: 20px;
     font-size: 10px;
 gap : 0%;
         
-    }
+    }  
     .image{
         order: 1;
     }
@@ -396,8 +465,6 @@ gap : 0%;
     order: 2;
     flex-wrap: wrap;
 width: 100%;
-
-        height: auto;
 
 }
 
@@ -449,22 +516,27 @@ letter-spacing: 0px;
 }
 .experience{
     flex-direction: column;
-    gap: 0px;
-    align-items: center;
-    gap:-30px;
+    display: flex;
+height: auto;
+margin-top: 200px;
+flex-wrap: wrap;
+width: 100%;
+padding: 10px;
 }
 .png{
 width: 100%;
 height: auto;
-margin-right: 220px;
+padding: 0px;
+padding-bottom: 0px;
 }
 
 
 .png img{
-width: 150%;
+width: 200px;
 height: auto;
-margin-right: 400px;
-
+display: block;
+margin: 0 auto;
+min-width: 400px;
 }
 
 
@@ -474,7 +546,9 @@ margin-right: 400px;
 .pna{
 width: 100%;
 height: auto;
-margin-bottom: 100px;
+padding: 0px;
+padding-bottom: 0px;
+
 }
 .si{
     display: none;
@@ -504,7 +578,7 @@ display: flex;
     flex-direction: column;
     width: 100%;
 height: auto;
-
+gap: 20px;
 }
 .icon img{
     width: 50%;
@@ -519,15 +593,16 @@ display: flex;
 width: 40%;
 height: auto;
 align-items: center;
-margin-left: 150px;
+margin-left: 130px;
 gap: 50px;
 justify-content: center;
-
+margin-top: 50px;
 
 
 }
 .btn0{
     width: 120px;
+
 }
 
 .ee img{
@@ -537,21 +612,47 @@ justify-content: center;
 .text1{
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: auto;
+padding-right: 100px;
 }
-.imag{
+.imag{  
 justify-content: center;
-padding-left:30px ;
+    width: 100%;
+    height: auto;
 
+}
+.section1{
+
+        flex-direction: column;
+    font-size: 10px;
+    margin-top: 100px;
+display: flex;
+width: 100%;
+height: auto;
+gap:0px;
+
+    }
+
+
+
+.image{
+    padding-bottom: 50px;
+    height: 250px;
+    padding: 0px;
+}
+.text{
+    align-items: flex-start;
+    text-align: left;
+    display: flex;
+    padding: 40px;
+    padding: 0px;
+
+}
+.n{
+gap: 20px;
+
+}
 }
 
 
-
-
-
-
-
-
-
-
-
-}
